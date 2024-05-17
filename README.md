@@ -1,6 +1,6 @@
 # PoolexDreamlineController
 
-Credit goes to [Njanik](https://github.com/njanik/hayward-pool-heater-mqtt)
+Credit goes to [Njanik](https://github.com/njanik/hayward-pool-heater-mqtt) and CDX-24 https://github.com/CDX-24/PoolexDreamlineController
 
 Work in progress, does work well but could definitely be improved.
 Works with Poolex Dreamline 125.
