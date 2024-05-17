@@ -11,7 +11,7 @@ Made for ESPHome, template configuration provided below.
 external_components:
   - source:
       type: git
-      url: [https://github.com/CDX-24/PoolexDreamlineController](https://github.com/fgamache1/cc207-pool-heat-pump)
+      url: https://github.com/fgamache1/cc207-pool-heat-pump
     refresh: 5s
     components: [hpci]
 
