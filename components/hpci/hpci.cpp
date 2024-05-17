@@ -63,7 +63,7 @@ namespace esphome
 
         bool HeatPumpController::decode(uint8_t frame[])
         {
-            if (frame[0] == 0xD2)
+            if (frame[0] == 0x4B)
             {
                 this->hpData.targetTemp = frame[2];
                 this->hpData.defrostAutoEnableTime = frame[3];
@@ -83,7 +83,7 @@ namespace esphome
                 // this->hpData.targetTemp = frame[14];
                 return true;
             }
-            else if (frame[0] == 0xDD)
+            else if (frame[0] == 0xBB)
             {
                 this->hpData.waterTempIn = frame[1];
                 this->hpData.waterTempOut = frame[2];
