@@ -8,7 +8,7 @@ namespace esphome
 {
   namespace hpci
   {
-#define HP_FRAME_LEN 16 // Heat pump frame length
+#define HP_FRAME_LEN 14 // Heat pump frame length
 
     class HeatPumpController : public Component
     {
