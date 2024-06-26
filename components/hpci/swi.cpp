@@ -160,7 +160,7 @@ namespace swi
      */
     void sendFrame(uint8_t frame[], uint8_t size)
     {
-        uint8_t frame_send[16];
+        uint8_t frame_send[14];
         for (uint8_t i = 0; i < size; i++)
         {
             frame_send[i] = reverseBits(frame[i]); // 1's complement before sending
