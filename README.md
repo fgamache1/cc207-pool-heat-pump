@@ -2,8 +2,8 @@
 
 Credit goes to [Njanik](https://github.com/njanik/hayward-pool-heater-mqtt) and CDX-24 https://github.com/CDX-24/PoolexDreamlineController
 
-Work in progress, does work well but could definitely be improved.
-Works with Poolex Dreamline 125.
+Not working. Work in progress.
+I try to adap for the cc207 heat pump controler
 
 Made for ESPHome, template configuration provided below.
 
