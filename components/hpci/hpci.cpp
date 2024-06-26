@@ -36,8 +36,8 @@ namespace esphome
         void HeatPumpController::sendControl(settings::ctrlSettings settings)
         {
             uint8_t frame[HP_FRAME_LEN];
-            frame[0] = 0xCC; // header
-            frame[1] = 0x0C; // header
+            frame[0] = 0x33; // header
+            frame[1] = 0x18; // header
             frame[2] = settings.targetTemp;
             frame[3] = settings.defrostAutoEnableTime;
             frame[4] = settings.defrostEnableTemp;
