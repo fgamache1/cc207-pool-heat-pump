@@ -22,9 +22,9 @@ namespace swi
 #define END_FRAME 3
 
 #define MAX_TIME 12000
-#define MAX_FRAME_SIZE 20
+#define MAX_FRAME_SIZE 14
 
-#define SEND_MSG_OCCURENCE 3
+#define SEND_MSG_OCCURENCE 4
     /**
      *  Enums
      */
