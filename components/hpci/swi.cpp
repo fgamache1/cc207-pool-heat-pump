@@ -124,7 +124,7 @@ namespace swi
     void sendHeaderCmdFrame(void)
     {
         sendLow(9);
-        sendHigh(5);
+        sendHigh(4.5);
     }
 
     /**
