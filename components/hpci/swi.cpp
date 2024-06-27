@@ -228,7 +228,7 @@ namespace swi
     {
         if (frameCnt < 9)
             return false;
-        return read_frame[0] == 0xd1 && read_frame[1] == 0xb1;
+        return read_frame[0] == 0xbb && read_frame[1] == 0x4b;
     }
 
     // fonction principale. Lit une trame.
